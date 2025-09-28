@@ -1047,7 +1047,7 @@ const projectsData = {
         columnText: 'Una identidad que comunica innovación y confianza, diseñada para escalar desde startup hasta líder del mercado.',
         columnTitle: 'Construyendo una marca que trasciende tendencias',
         challenge: 'Startup con producto innovador pero sin identidad visual definida. Competían en un mercado saturado sin diferenciación clara.',
-        title: 'Retelier: una plataforma doblemente premiada por su',
+        title: 'Retelier: una plataforma doblemente premiada por su enfonque',
         description: 'Cómo la definición de una identidad de marca, desde el storytelling hasta el diseño de producto, para crear una experiencia de compra memorable contribuyó significativamente en la validación satisfactoria del modelo de negocio de Puestal.',
         services: ['Wireframes', 'Naming', 'Branding', 'Diseño Web', 'UX/UI', 'Prototipo de alta fidelidad', 'Benchmarking', 'Estrategia'],
         columnText: 'Retelier es una plataforma digital donde los negocios locales actúan como personal shoppers, recomendando el regalo perfecto para cada ocasión de forma personalizada.',
@@ -1431,10 +1431,10 @@ function initResponsiveNotification() {
 const originalTitle = document.title;
 let messageIndex = 0;
 const messages = [
-    '👋 ¡No te vayas sin contactarme!',
-    '💼 Mi experiencia te está esperando',
-    '🚀 Proyectos increíbles aquí dentro',
-    '✨ Tu próximo desarrollador está aquí'
+    '👋 ¿Te has perdido?',
+    '💼 ¡Vuelve! Aún hay más...',
+    '🚀 Volvamos a lo importante...',
+    '✨ Oye, aún estoy aquí!'
 ];
 
 document.addEventListener('visibilitychange', function() {
@@ -1607,3 +1607,4 @@ syncThemeColorWithBackground()        // Sincronizar automático
 // Ejecutar al cargar y en resize
 window.addEventListener('load', updateNotificationText);
 window.addEventListener('resize', updateNotificationText);
+
